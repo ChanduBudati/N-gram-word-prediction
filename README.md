@@ -13,7 +13,7 @@ should be handled as a single sentence.
 • Lines/sentences should be stripped of commas, semicolons, colons, periods, question marks, and
 exclamation points.
 • The data structure used to hold the tokens/words (likely a list) should be augmented with the special
-start sentence <s> and end sentence </s> symbols, as required for each n-gram.
+start sentence symbols, as required for each n-gram.
 • The extracted bigrams and trigrams must be kept in separate data structures (dictionaries work well
 here), and must include the special sentence delimiter markers. To avoid having very large but sparse
 data structures, only n-grams that are encountered are entered into the data structures.
